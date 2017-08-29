@@ -1,0 +1,501 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ren",
+				"render\tfunction"
+			],
+			[
+				"typ",
+				"typeDog\tstatement"
+			],
+			[
+				"u",
+				"utils\tmodule"
+			],
+			[
+				"dog",
+				"dogshow\tmodule"
+			],
+			[
+				"ch",
+				"CharField"
+			],
+			[
+				"dogImages",
+				"dogImagesG\tstatement"
+			],
+			[
+				"Lab",
+				"labraDogsBoys\tstatement"
+			],
+			[
+				"it",
+				"item"
+			],
+			[
+				"ima",
+				"imageTag"
+			],
+			[
+				"col-lg",
+				"col-lg-4 \tBootstrap 3 Class"
+			],
+			[
+				"conta",
+				"container-fluid \tBootstrap 3 Class"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"cont",
+				"container-fluid \tBootstrap 3 Class"
+			],
+			[
+				"do",
+				"dogImages\tstatement"
+			],
+			[
+				"back",
+				"backface-visibility"
+			],
+			[
+				"col",
+				"col-lg-10 \tBootstrap 3 Class"
+			],
+			[
+				"im",
+				"img-responsive \tBootstrap 3 Class"
+			],
+			[
+				"btn-group",
+				"btn-group-lg \tBootstrap 3 Class"
+			],
+			[
+				"btn",
+				"btn-group \tBootstrap 3 Class"
+			],
+			[
+				"all",
+				"allPhotos\tstatement"
+			],
+			[
+				"pho",
+				"photosOfDog\tstatement"
+			],
+			[
+				"image",
+				"imageDog\tstatement"
+			],
+			[
+				"we",
+				"weHadGrowth_detailview"
+			],
+			[
+				"Im",
+				"imagesPair\tclass"
+			],
+			[
+				"de",
+				"detail_view\tfunction"
+			],
+			[
+				"la",
+				"labraDogsGirls\tstatement"
+			],
+			[
+				"lab",
+				"labraDogsBoys\tstatement"
+			],
+			[
+				"rende",
+				"render_to_response\tfunction"
+			],
+			[
+				"labra",
+				"labrador_view\tfunction"
+			],
+			[
+				"staticfi",
+				"staticfiles_urlpatterns\tfunction"
+			],
+			[
+				"con",
+				"contrib\tmodule"
+			],
+			[
+				"url",
+				"urlpatterns\tstatement"
+			],
+			[
+				"Ins",
+				"INSTALLED_APPS\tstatement"
+			],
+			[
+				"Dog",
+				"DogBase\tmodule"
+			],
+			[
+				"new",
+				"News\tclass"
+			],
+			[
+				"cla",
+				"class\tNew Class"
+			],
+			[
+				"One",
+				"ManyToOneRel\tclass"
+			],
+			[
+				"max",
+				"max_length"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "dogshow/dogshow/static/templates/photoBase/allPhotos.html",
+			"settings":
+			{
+				"buffer_size": 408,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dogshow/dogshow/static/templates/DogBase/labradors.html",
+			"settings":
+			{
+				"buffer_size": 2474,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dogshow/DogBase/models.py",
+			"settings":
+			{
+				"buffer_size": 993,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 157.0,
+		"last_filter": "Install",
+		"selected_items":
+		[
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"VIrtuel",
+				"Build With: Python + Virtualenv"
+			],
+			[
+				"VIrt",
+				"Build With: Python + Virtualenv"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 218.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Projects/Dogsite",
+		"/D/Projects/Dogsite/dogshow",
+		"/D/Projects/Dogsite/dogshow/DogBase",
+		"/D/Projects/Dogsite/dogshow/dogshow",
+		"/D/Projects/Dogsite/dogshow/dogshow/static",
+		"/D/Projects/Dogsite/dogshow/dogshow/static/styles",
+		"/D/Projects/Dogsite/dogshow/dogshow/static/templates",
+		"/D/Projects/Dogsite/dogshow/dogshow/static/templates/DogBase",
+		"/D/Projects/Dogsite/dogshow/dogshow/static/templates/NewPuppies",
+		"/D/Projects/Dogsite/dogshow/dogshow/static/templates/news",
+		"/D/Projects/Dogsite/dogshow/dogshow/static/templates/photoBase",
+		"/D/Projects/Dogsite/dogshow/NewPuppies",
+		"/D/Projects/Dogsite/dogshow/news",
+		"/D/Projects/Dogsite/dogshow/PhotoBase"
+	],
+	"file_history":
+	[
+		"/D/Projects/Dogsite/dogshow/DogBase/views.py",
+		"/D/Projects/Dogsite/dogshow/dogshow/settings.py",
+		"/D/Projects/Dogsite/dogshow/dogshow/static/templates/base.html",
+		"/D/Projects/Dogsite/dogshow/DogBase/global_context.py",
+		"/D/Projects/Dogsite/dogshow/media/style.css",
+		"/D/Projects/Dogsite/dogshow/PhotoBase/views.py",
+		"/D/Projects/Dogsite/dogshow/news/views.py",
+		"/D/Projects/Dogsite/dogshow/dogshow/urls.py",
+		"/D/Projects/Dogsite/dogshow/dogshow/static/templates/DogBase/labradors.html",
+		"/D/Projects/Dogsite/dogshow/dogshow/static/templates/NewPuppies/listPairs.html",
+		"/D/Projects/Dogsite/dogshow/dogshow/global_context.py",
+		"/D/Projects/Dogsite/dogshow/DogBase/models.py",
+		"/D/Projects/Dogsite/dogshow/PhotoBase/models.py",
+		"/D/Projects/Dogsite/dogshow/dogshow/static/templates/NewPuppies/growthPuppies.html",
+		"/D/Projects/Dogsite/dogshow/dogshow/static/templates/news/index.html",
+		"/D/Projects/Dogsite/dogshow/dogshow/static/styles/style.css",
+		"/D/Projects/Dogsite/dogshow/dogshow/static/templates/photoBase/allPhotos.html",
+		"/D/Projects/Dogsite/dogshow/dogshow/static/templates/DogBase/detailDog.html",
+		"/D/Projects/Dogsite/dogshow/NewPuppies/views.py",
+		"/D/Projects/Dogsite/dogshow/NewPuppies/models.py",
+		"/D/Projects/Dogsite/dogshow/dogshow/static/templates/NewPuppies/photoLib.html",
+		"/D/Projects/Dogsite/dogshow/dogshow/static/templates/contacts.html",
+		"/D/Projects/Dogsite/dogshow/news/models.py",
+		"/D/Projects/Dogsite/dogshow/dogshow/static/templates/index.html",
+		"/D/Projects/Dogsite/dogshow/PhotoBase/admin.py",
+		"/D/Projects/Dogsite/dogshow/NewPuppies/admin.py",
+		"/D/Projects/Dogsite/dogshow/DogBase/admin.py",
+		"/D/Projects/Dogsite/dogshow/dogshow/admin.py",
+		"/D/Projects/Dogsite/dogshow/news/admin.py",
+		"/D/Projects/Dogsite/dogshow/news/templates/index1.html",
+		"/D/Projects/Dogsite/Dogsite.sublime-project",
+		"/C/Users/123/AppData/Roaming/Sublime Text 3/Packages/User/Virtualenv.sublime-settings",
+		"/C/Users/123/AppData/Roaming/Sublime Text 3/Packages/Virtualenv/README.md"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" \"",
+			"thumbnail"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dogshow/dogshow/static/templates/photoBase/allPhotos.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 408,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								351,
+								351
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dogshow/dogshow/static/templates/DogBase/labradors.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2474,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 400.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "dogshow/DogBase/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 993,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								212,
+								220
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 178.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Dogsite.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 361.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

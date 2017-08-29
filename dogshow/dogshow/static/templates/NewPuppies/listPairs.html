@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+ {% if havePuppies.count != 0 %}
+ <h2 align="center">В ПИТОМНИКЕ ЕСТЬ ЩЕНКИ</h2>
+ {% for pair in havePuppies %}
+  <p>
+	  <b><a href="{{pair.pairLiter}}/">{{pair.pairLiter}}</a>
+	  <img src="{{MEDIA_URL}}{{pair.pairImage.url}}" class="image-preview">
+	  {{pair.pairF}}
+	  {{pair.pairM}}
+	  {{dog.dogBday}}</b>
+	  <p>{{pair.pairRes}}</p>
+	  <a href="{{pair.pairLiter}}/"><button>Фотографии</button></a>
+ <p>
+ {% endfor %}
+ {% endif %}
+  {% if waitPuppies.count != 0 %}
+ <h2 align="center">ОЖИДАЮТСЯ</h2>
+
+ {% for pair in waitPuppies %}
+   <div class="well">
+   <div class="row">
+    <div class="col-lg-4">
+  	  <img src="{{MEDIA_URL}}{{pair.pairImage.url}}" class="img-responsive">
+  	</div>
+  	<div class="col-lg-6">
+	  <h3><a href="{{pair.pairLiter}}/">Litter "{{pair.pairLiter}}"</a></h3>
+	  <b><p>Sire: {{pair.pairM}}</p>
+	  <p>Dam: {{pair.pairF}}</p>
+	  <p>{{dog.dogBday}}</p></b>
+	  <p>{{pair.pairRes}}</p>
+	  <p align="right"><a href="{{pair.pairLiter}}/"><button >Фотоальбом</button></a></p>
+	</div>
+ </div></div>
+ {% endfor %}
+ {% endif %}
+{% if waitPuppies.count == 0 and havePuppies.count == 0 %}
+<h2 align="center"> На данный момент щенят нет и не ожидаются</h2>
+{% endif %}
+{% endblock %}

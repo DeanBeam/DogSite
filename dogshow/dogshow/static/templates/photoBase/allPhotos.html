@@ -1,0 +1,15 @@
+{% extends "base.html" %}    
+{% block content %}
+<h2 align="center">ФОТОГАЛЛЕРЕЯ</h2>
+<hr>
+<div class="wrapper">
+    {% for imgs in images %}
+    	<div class="column">
+    	 <div class="inner"><img src="{{MEDIA_URL}}{{imgs.imageDog.url}}" alt=""></div>
+    	</div>
+    	{% for tag in imgs.imageTag.all %}
+    		<a href="/{{tag.dogSlug}}/">{{tag}}</a>
+    	{% endfor %}
+    {% endfor %}
+</div>
+{% endblock %}

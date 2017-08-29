@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+
+ {% if havePuppies.count != 0 %}
+ <h2 align="center">НАШЕ РАЗВЕДЕНИЕ</h2>
+ {% for pair in havePuppies %}
+  <div class="well">
+   <div class="row">
+    <div class="col-lg-4">
+     <img src="{{MEDIA_URL}}{{pair.pairImage.url}}" class="img-responsive">
+	  
+	</div>
+  	<div class="col-lg-6">
+  	  <h3><a href="{{pair.pairLiter}}/">Litter "{{pair.pairLiter}}"</a></h3>
+	  <b><p>Sire: {{pair.pairM}}</p>
+	  <p>Dam: {{pair.pairF}}</p>
+	  {{dog.dogBday}}</b>
+	  <p>{{pair.pairRes}}</p>
+	  <p align="right"><a href="{{pair.pairLiter}}/"><button>Фотоальбом</button></a></p>
+	</div>
+ </div></div>
+ {% endfor %}
+{% else %}
+ <h2 align="center">История пока не загружена</h2>
+{% endif %}
+{% endblock %}

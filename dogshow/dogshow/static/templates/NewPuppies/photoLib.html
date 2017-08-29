@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<b>{{pair.pairLiter}}
+<img src="{{MEDIA_URL}}{{pair.pairImage.url}}" class="image-preview"></b>
+ 
+ <h2>Фотографии </h2>
+ {% for img in images %}
+  <p>
+	  {{img.imagePairName}}
+	  <img src="{{MEDIA_URL}}{{img.imagePair.url}}">
+  <p>
+ {% endfor %}
+
+{% endblock %}

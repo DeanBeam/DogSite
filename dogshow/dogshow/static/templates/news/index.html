@@ -5,23 +5,19 @@
     {% for n in news %}
      <div class="well">
     	<div class="row">
-        <div class="container-fluid">
-    	 <div class="col-md-3">
+    	 <div class="col-xs-5">
     	  <div class="thumbnail">
-    		  <img src="{{MEDIA_URL}}{{n.image.url}}" width="320">
+    		  <img src="{{MEDIA_URL}}{{n.image.url}}" width="100%">
     	  </div>
     	</div>
-    	<div class="col-md-6" align="left">
+    	<div class="col-xs-5" align="left">
 	    	<b>{{n.title}}</b>
 	    	<p>{{n.body}}</p>
-           <div class="col-md-14" align="right">
-            <p>{{n.timefield}}</p>
-         </div>
     	</div>
-
+      <div class="col-xs-2" align="right">
+        <p>{{n.timefield|date}}</p>
+      </div>
     	</div>
-
-        </div>
       </div>	
     {% endfor %}
 {% endblock %}

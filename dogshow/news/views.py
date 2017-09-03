@@ -9,4 +9,4 @@ def index(request):
 	return render(request, 'news/index.html',{'news':indexNews})
 
 def contacts(request):
-	return render_to_response("contacts.html")
+	return render(request, "contacts.html")

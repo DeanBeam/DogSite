@@ -12,66 +12,45 @@
 
  </head>
 <body>
+<div class="container-fluid">
+    <div class="row">
+     <div class="col-md-8 col-md-offset-2">
+      <a href="/"> <img src="/media/header.webp" class="img-responsive" width="100%"></a>   
+        <nav class="navbar navbar-default navbar-inverse" role="navigation">
+        <div class="container-fluid">
+            <!--Название сайта и кнопка раскрытия меню для мобильных-->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
 
-<div class="container">  
-<!--     <h1>Привет, я - Женька. Разважу сабак!</h1>
-    <p>Те что ниже - всё о том:</p>
- -->
-<div class="row">
- <div class="col-lg-1"></div>
- <div class="col-lg-10">
-           <a href="/"> <img src="/media/header.webp" class="img-responsive" width="100%"></a>   
-            <nav class="navbar navbar-default" role="navigation">
-              <div class="container-fluid">
-                <!--Название сайта и кнопка раскрытия меню для мобильных-->
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <!-- <a class="navbar-brand" href="/">For Mary</a> -->
-                </div>
-
-                <!--Само меню-->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <b>
-                  <ul class="nav navbar-nav">
-                    <li><a href="/">ГЛАВНАЯ</a></li>
-                    {% for type in dogType %}
-                        <li><a href="/{{type.typeSlug}}/">{{type.typeName|upper}}</a></li>
-                    {% endfor %}
-<!--                     <li><a href="/labradors/">ЛАБРАДОРЫ</a></li>
-                    <li><a href="/cavalers/">КАВАЛЕРЫ</a></li> -->
-                    <li><a href="/puppies/">ЩЕНКИ</a></li>
-                    <li><a href="/history/">Наше разведение</a></li>
-                    <li><a href="/photos/">ФОТО</a></li>
-                    <li><a href="/contacts/">КОНТАКТЫ</a></li>
-                  </ul>
-                </b> 
-                </div><!-- /.navbar-collapse -->
-              </div><!-- /.container-fluid -->
-            </nav>
-<!--     <nav>
-        <a href="/">Главная</a>
-        <a href="/labradors/">Лабрадоры</a>
-        <a href="/cavalers/">Кавалеры</a>
-        <a href="/puppies/">Щенки</a>
-        <a href="/history/">Наше разведение</a>
-        <a href="/photos/">ФОТО</a>
-        <a href="/contacts/">Контакты</a>
-    </nav> -->
-
-    <div class="col-lg-12" id="back"> 
+            <!--Само меню-->
+            <div class="collapse navbar-collapse" id="menu">
+              <ul class="nav navbar-nav">
+                <li><a href="/">ГЛАВНАЯ</a></li>
+                {% for type in dogType %}
+                    <li><a href="/{{type.typeSlug}}/">{{type.typeName|upper}}</a></li>
+                {% endfor %}
+                <li><a href="/puppies/">ЩЕНКИ</a></li>
+                <li><a href="/history/">Наше разведение</a></li>
+                <li><a href="/photos/">ФОТО</a></li>
+                <li><a href="/contacts/">КОНТАКТЫ</a></li>
+              </ul>
+            </div> 
+            </div>
+        </nav>
+    <div class="thumbnail" id="back">
     {% block content %}
     {% endblock %}
     </div>
     <div align="center">
     <img src="/media/cav.png" class="img-responsive" width="50%">
     </div>
- </div>
 </div>
-    
+</div>
 </body>
 </html>

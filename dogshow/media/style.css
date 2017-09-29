@@ -27,14 +27,17 @@ ul{
 	max-height: 400px !important;
 }
 .img-slider{
-	max-height: 400px !important;
+  max-height: 400px !important;
 }
 #back{
 	background-color: #CCC6C4;
 
 }
-.left carousel-control{
-
+.navbar li:hover{
+    background-color: rgba(240, 0, 0, 0.6);
+}
+.slider img {
+    height: 380px !important;
 }
 /*
 #photos {

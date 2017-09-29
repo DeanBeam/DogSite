@@ -10,23 +10,25 @@
   	 <div class="well" >
 	   <div align="center">
 	    <b> 
-	     <h3><a href="/{{dog.dogSlug}}/">{{dog.dogName}}</a></h3>
+	     <h3><a href="{{dog.dogSlug}}/">{{dog.dogName}}</a></h3>
 	  	 <p>{{dog.dogShortName}}</p>
 	     <p>{{dog.dogBday}}</p>
 	     </b>
-	  	  <p>{{dog.dogDef}}</p></div>
+			<p>{{dog.dogDef}}</p></div>
+			<div class="slider">
 			<div id="carousel{{dog.dogShortName}}" class="carousel slide" align="center">
-		    	<ol class="carousel-indicators"></ol>
+		    	<ol class="carousel-indicators"></ol> 
 		    	<div class="carousel-inner">
 				  {% for im in imagesB %}
 				    {% if dog in im.imageTag.all %}
-					     <div class="item {% if forloop.first %}active{% endif %}" ><img class="img-responsive" src="{{ im.imageDog.url }}"  /></div>
+					     <div class="item {% if forloop.first %}active{% endif %}"><img src="{{ im.imageDog.url }}" /></div>
 				   	{% endif %}
 				  {% endfor %}
     			</div>
     			<a href="#carousel{{dog.dogShortName}}" class="left carousel-control" data-slide="prev"></a>
     			<a href="#carousel{{dog.dogShortName}}" class="right carousel-control" data-slide="next"></a>
-  			</div>
+			  </div>
+			</div>
 	  </div>
 	</div>
   </div>
@@ -41,28 +43,25 @@
   	 <div class="well" >
 	   <div align="center">
 	    <b> 
-	     <h3><a href="/{{dog.dogSlug}}/">{{dog.dogName}}</a></h3>
+	     <h3><a href="{{dog.dogSlug}}/">{{dog.dogName}}</a></h3>
 	  	 <p>{{dog.dogShortName}}</p>
 	     <p>{{dog.dogBday}}</p>
 	     </b>
-	  	  <p>{{doge.dogDef}}</p></div>
+	  	  <p>{{dog.dogDef}}</p></div>
+			<div class="slider">
 			<div id="carousel{{dog.dogShortName}}" class="carousel slide" align="center">
-		    	<ol class="carousel-indicators"></ol>
+		    	<ol class="carousel-indicators"></ol> 
 		    	<div class="carousel-inner">
 				  {% for im in imagesG %}
 				    {% if dog in im.imageTag.all %}
-					    {% if forloop.first %}
-					     <div class="item active" ><img class="img-responsive" src="{{ im.imageDog.url }}"  /></div>
-					    {% endif %}
-					    {% if not forloop.first %}
-					   	<div class="item" ><img class="img-slider" src="{{ im.imageDog.url }}" /></div>
-					   	{% endif %}
+					     <div class="item {% if forloop.first %}active{% endif %}"><img src="{{ im.imageDog.url }}" /></div>
 				   	{% endif %}
 				  {% endfor %}
     			</div>
     			<a href="#carousel{{dog.dogShortName}}" class="left carousel-control" data-slide="prev"></a>
     			<a href="#carousel{{dog.dogShortName}}" class="right carousel-control" data-slide="next"></a>
-  			</div>
+			  </div>
+			</div>
 	  </div>
 	</div>
   </div>

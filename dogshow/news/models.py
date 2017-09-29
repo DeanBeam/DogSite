@@ -12,3 +12,6 @@ class News(models.Model):
 
 	def __str__(self):
 		return self.title
+
+	def get_year(self):
+		return str(self.timefield.year)

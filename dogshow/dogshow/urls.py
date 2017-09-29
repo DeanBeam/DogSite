@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from news.views import index,contacts
-from DogBase.views import labrador_view, cavaliers_view,detail_view
+from DogBase.views import labrador_view,detail_view
 from NewPuppies.views import weSharePuppies_view, weHadGrowth_view, photoPuppies_detailview
 from PhotoBase.views import allPhotos_view
 from dogshow import settings
@@ -33,8 +33,9 @@ urlpatterns = [
     url(r'^history/$', weHadGrowth_view, name="puppiesHistory"),    
     url(r'^puppies/$', weSharePuppies_view, name="puppiesShare"),
     # url(r'^cavalers/$', cavaliers_view, name="cavalers"),
+    url(r'^(?P<year>\d+)/$', index, name="newsByYear"),
     url(r'^(?P<dogtype>\w+)/$', labrador_view, name="dog"),
-    url(r'^(?P<dogSlug>\w+)/$', detail_view, name="detailDog"),
+    url(r'^(?P<dogtype>\w+)/(?P<dogSlug>\w+)/$', detail_view, name="detailDog"),
     url(r'^$', index, name="index"),
 ]
 if settings.DEBUG:

@@ -1,0 +1,44 @@
+{% extends "base.html" %}    
+
+
+{% block content %}
+Новости за:
+    {% for year in years %}
+      <a href="/{{year}}">{{ year}}</a>  
+    {% endfor %}
+    {% for n in news %}
+     <div class="well">
+    	<div class="row">
+    	 <div class="col-xs-5">
+    	  <div class="thumbnail">
+    		  <img src="{{MEDIA_URL}}{{n.image.url}}" width="100%">
+    	  </div>
+    	</div>
+    	<div class="col-xs-5" align="left">
+	    	<b>{{n.title}}</b>
+	    	<p>{{n.body}}</p>
+    	</div>
+      <div class="col-xs-2" align="right">
+        <p>{{n.timefield|date}}</p>
+      </div>
+    	</div>
+      </div>	
+    {% endfor %}
+
+  <div class="pagination">
+    <span class="step-links">
+        {% if news.has_previous %}
+            <a href="?page={{ news.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ news.number }} of {{ news.paginator.num_pages }}.
+        </span>
+
+        {% if news.has_next %}
+            <a href="?page={{ news.next_page_number }}">next</a>
+        {% endif %}
+    </span>
+</div>
+
+{% endblock %}

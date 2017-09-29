@@ -10,7 +10,9 @@ class TypeDog(models.Model):
 
 	def __str__(self):
 		return self.typeName
-		
+	
+	def get_slug(self):
+		return self.typeSlug
 
 
 class Dog(models.Model):

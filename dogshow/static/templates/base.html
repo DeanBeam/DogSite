@@ -31,12 +31,14 @@
             <!--Само меню-->
             <div class="collapse navbar-collapse" id="menu">
               <ul class="nav navbar-nav">
-                <li><a href="/">ГЛАВНАЯ</a></li>
+                <li>
+                 <a href="/">ГЛАВНАЯ</a>
+                </li>
                 {% for type in dogType %}
                     <li><a href="/{{type.typeSlug}}/">{{type.typeName|upper}}</a></li>
                 {% endfor %}
                 <li><a href="/puppies/">ЩЕНКИ</a></li>
-                <li><a href="/history/">Наше разведение</a></li>
+                <li><a href="/history/">НАШЕ РАЗВЕДЕНИЕ</a></li>
                 <li><a href="/photos/">ФОТО</a></li>
                 <li><a href="/contacts/">КОНТАКТЫ</a></li>
               </ul>
